@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <EditText
+        android:id="@+id/zhuce_name"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:hint="输入手机号"/>
+    <EditText
+        android:layout_marginTop="15dp"
+        android:id="@+id/zhuce_pwd"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/zhuce_name"
+        android:hint="输入密码"/>
+    <EditText
+        android:layout_marginTop="15dp"
+        android:id="@+id/zhuce_pwd_1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/zhuce_pwd"
+        android:hint="确认密码"/>
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:id="@+id/zhuce_you"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/zhuce_pwd_1"
+        android:hint="填写邮箱"/>
+
+    <Button
+        android:id="@+id/zhuce_zhuce"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/zhuce_you"
+        android:background="@drawable/btnshape"
+        android:layout_marginTop="20dp"
+        android:text="注册"/>
+
+</RelativeLayout>
